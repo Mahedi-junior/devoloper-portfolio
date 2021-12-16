@@ -29,6 +29,7 @@ border-radius: 20px;
     border-radius: 10px;
     color: black;
     font-weight: 700;
+    text-shadow: 2px 2px 4px #dacc0a;
 }
 .top-banner{
 background-image: url(/images/top-banner.png);
@@ -43,8 +44,40 @@ background-repeat: no-repeat;
 .secend-p{
     width: 50% ;
     padding: 3%;
-    background-image: url(/images/dream-bg.png);
+    /* background-image: url(/images/dream-bg.png); */
     background-repeat: no-repeat;
     background-position: 0;
-    background-image: url(/showOff/bangladesh\ map.png);
+    /* background-image: url(/showOff/bangladesh\ map.png); */
+}
+.exp{
+    color: rgb(255, 51, 0);
+    padding-left: 40px;
+    
+    text-shadow: 2px 2px 5px rgb(6, 231, 36);
+}
+.orange-color{
+color: rgb(216, 99, 21);
+}
+
+.Experience-area{
+    display: flex;
+    grid-gap: 50px;
+    padding: 10px 20px;
+    
+}
+.box1{
+   
+    padding: 10px;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #828575;
+    border-radius: 10px;
+}
+.box2{
+    width: 50%;
+    padding-left: 10px;
+     padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  border-radius: 10px;
+
 }
